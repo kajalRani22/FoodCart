@@ -43,7 +43,7 @@ const Home = () => {
                       <span>{element.rating}&nbsp;★ </span>
                     </div>
                     <div className="lower_data d-flex justify-content-between ">
-                      <h5>North Indian, Biryani, Mughlai</h5>
+                      <h5>{element.address}</h5>
                       <span>{element.price}</span>
                     </div>
                     <div className="extra"></div>
